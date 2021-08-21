@@ -1,0 +1,13 @@
+package Helloworld;
+
+public class HelloWorld{
+
+     public static void main(String []args){
+        int i,j;
+        for(j=65;j<=70;j++){
+            for(i=65;i<=j;i++)
+                System.out.print((char)i);
+            System.out.println();
+        }
+     }
+}
